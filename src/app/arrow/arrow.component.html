@@ -1,0 +1,20 @@
+<span 
+class="bi bi-arrow-down-circle"
+style="font-size: 5rem; color: cornflowerblue;"
+[ngClass]="{
+    'bi-arrow-down-circle': isSelect ,
+    'bi-arrow-down-circle-fill': !isSelect 
+}"
+(click)="onClick()"
+></span>
+
+<!-- ------------------------- -->
+
+<!-- <span 
+class="bi bi-arrow-down-circle"
+style="font-size: 5rem; color: cornflowerblue;"
+[class.bi-arrow-down-circle]="isSelect"
+[class.bi-arrow-down-circle-fill]="!isSelect"
+(click)="onClick()"
+></span> -->
+
